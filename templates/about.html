@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+{% block body %}
+    <!-- Page Header -->
+    <header class="masthead" style="background-image: url('{{ url_for('static', filename='img/about-bg.jpg') }}')">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <div class="page-heading">
+              <h1>Why Blog</h1>
+              <span class="subheading"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <p>A blog is a regularly updated website where new content is frequently published, typically written in an informal or conversational style—often with the goal of attracting readers and achieving some sort of goal, whether community-building or growing a business.</p>
+          <p>There’s one big point in the definition of a blog here that I’d like to point out—a blog is regularly updated. We’ll get to why that’s so important in a minute.</p>
+          <p>You most likely read blogs every day without even realizing it. You’re actually on my blog right now. Major websites like Forbes, BuzzFeed and CNN are all blogs too.</p>
+        </div>
+      </div>
+    </div>
+
+   {% endblock %}
